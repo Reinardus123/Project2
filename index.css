@@ -1,0 +1,165 @@
+:root {
+  --primary: #2a2f4f;
+  --nav: #212a3e;
+  --word: #e8d7d7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary);
+  color: #e8d7d7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: var(--nav);
+  border-bottom: 1px solid white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #e8d7d7;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-nav a {
+  color: #e8d7d7;
+  display: inline-block;
+  align-items: normal;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 3rem;
+}
+
+.navbar .SignUp a {
+  color: #e8d7d7;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.navbar .SignUp {
+  border: 1px solid #545b77;
+  background-color: #545b77;
+  border-radius: 12px;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #545b77;
+}
+
+.navbar .SignUp a:hover {
+  color: #212a3e;
+}
+
+.container-content {
+  background-image: url(posterimage1.jpg);
+  background-size: cover;
+  background-position: center;
+  color:black;
+  text-align: left;
+  padding-top: 30%;
+  /* padding-bottom: 1%; */
+}
+
+.content-1 {
+  width: 80%;
+  padding-bottom: 20%;
+  padding-left: 1%;
+  color:#e8d7d7;
+}
+
+.content-1 h2{
+  text-shadow: 2px 2px 3px black;
+}
+
+.content-button{
+  display: flex;
+  background-color: #545b77;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 1rem 4rem;
+  font-size: 24px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.content-button a{
+  color:#e8d7d7
+}
+
+.content-button a:hover{
+  color: #212a3e;
+}
+
+
+.KidsMovie{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.Box-Office{
+  display:flex;
+  justify-content: center;
+  gap:2%;
+  margin-top: 1.5%;
+}
+
+.kids-1{
+  margin-left: 2%;
+}
+
+.BoxOffice{
+  margin-left: 2%;
+}
+
+.detail-button{
+  display: flex;
+ flex-direction: column; 
+}
+
+.content-1 .Mario {
+  color:red;
+}
+
+.content-1 .Bros{
+  color: blue;
+}
+
+@media(max-width:768px){
+  
+  html{
+    font-size: 95%;
+  }
+
+  html.img{
+    width: 90%;
+  }
+  
+  
+  
+}

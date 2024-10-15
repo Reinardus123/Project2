@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sign-up.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav style="display: flex; gap: 16px">
+        <a href="#" class="navbar-logo">JETFLIX</a>
+
+        <div class="navbar-nav">
+          <a href="index.html">Home</a>
+          <a href="#">News & Popular</a>
+          <a href="movie.html">Movies</a>
+        </div>
+      </nav>
+
+      <div class="SignUp">
+        <a href="Sign-Up.html">Sign Up</a>
+      </div>
+    </header>
+
+    <section class="create-account">
+      <h1 class="account">Create Account</h1>
+      <div class="error">
+        
+      </div>
+      <form action="" method="" onsubmit="validateform(event)" id="regisform">
+        <div class="input-group">
+          <label for="Name">Name*</label>
+          <input type="text" name="Name" id="Name" />
+
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password*</label>
+          <input type="text" name="password" id="password" />
+        </div>
+
+        <div class="input-group">
+          <label for="Confirm-Password">Confirm Password*</label>
+          <input type="text" name="Confirm" id="Confirm" />
+        </div>
+
+        <div class="input-group">
+          <label for="Date-of-birth">Date of Birth*</label>
+          <input type="text" name="date" id="date" />
+        </div>
+
+        <div class="input-gender">
+          <label for="Gender">Gender*</label>
+          <input type="radio" name="gender" id="male">
+          <label for="gender-male">Male</label>
+          <input type="radio" name="gender" id="female">
+          <label for="gender-female">Female</label>
+
+        </div>
+
+        <div class="input-agreement">
+          <input type="checkbox" name="agree" id="agree">
+          <label for="agree">I agree with the terms and condition</label>
+        </div>
+
+        <div class="create-button">
+          <a href="index.html">
+            <button type="submit" class="create">CREATE ACCOUNT</button>
+          </a>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

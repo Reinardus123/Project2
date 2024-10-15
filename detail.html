@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail page</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="detail.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!--navbar start-->
+    <header class="navbar">
+      <nav style="display: flex; gap: 16px">
+        <a href="#" class="navbar-logo">JETFLIX</a>
+
+        <div class="navbar-nav">
+          <a href="index.html">Home</a>
+          <a href="news.html">News & Popular</a>
+          <a href="movie.html">Movies</a>
+        </div>
+      </nav>
+
+      <div class="SignUp">
+        <a href="Sign-Up.html">Sign Up</a>
+      </div>
+    </header>
+    <!--navbar end-->
+
+    <section class="Detail-film">
+      <div class="Film">
+        <h2 class="film-1">Super Mario Bros The Movie</h2>
+        <div class="content">
+         <iframe  src="https://www.youtube.com/embed/TnGl01FkMMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>">
+          <div class="deskripsi">
+            <p>
+              Synopsis : A Brooklyn plumber named Mario travels through the Mushroom Kingdom with a princess named Peach and an anthropomorphic mushroom named Toad to find Mario's brother, 
+              Luigi, and to save the world from a ruthless fire-breathing Koopa named Bowser.
+            </p>
+            <div class="Genre">
+              <p class="genre-1">Genre : Animation , Adventure , Comedy</p>
+            </div>
+
+            <div class="rating">
+              <p class="rating-1">Rating IMDb : 7.7 / 10</p>
+            </div>
+              
+            <div class="Cast">
+              <p class="cast-1">Cast : Chris Prat, Anya Taylor Joy, Charlie Day, etc </p>
+            </div>
+
+            <div class="Duration">
+              <p class="duration-1">Duration : 92 minutes </p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="icons">
+          <a href="#" id = "play"><i<i data-feather="play"></i>></i></a>
+          <a href="#" id = "download"><i<i data-feather="download"></i>></i></a>
+        </div>
+      </div>
+    </section>
+    <script>
+      feather.replace();
+    </script>  
+  </body>
+</html>

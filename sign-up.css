@@ -1,0 +1,170 @@
+:root {
+  --primary: #2a2f4f;
+  --nav: #212a3e;
+  --word: #e8d7d7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary);
+  color: #e8d7d7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: var(--nav);
+  border-bottom: 1px solid white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #e8d7d7;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-nav a {
+  color: #e8d7d7;
+  display: inline-block;
+  align-items: normal;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 3rem;
+}
+
+.navbar .SignUp a {
+  color: #e8d7d7;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.navbar .SignUp {
+  border: 1px solid #545b77;
+  background-color: #545b77;
+  border-radius: 12px;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #545b77;
+}
+
+.navbar .SignUp a:hover {
+  color: #212a3e;
+}
+
+.create-account {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+  font-size: 110%;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+.create-account h1 {
+  margin-bottom: 5%;
+}
+
+.input-group {
+  font-size: 130%;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.input-gender{
+  font-size:130%;
+  width: 100%;
+  display: flex;
+  
+}
+
+.input-agreement{
+  font-size: 130%;
+  width: 50%;
+  /* justify-content: space-between; */
+  /* display: flex; */
+}
+
+.input-gender label{
+  width: 50%;
+}
+
+.input-gender input{
+  width: 50%;
+}
+
+.input-group input,
+.input-group label {
+  width: 50%;
+}
+
+.input-group input {
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.create-account form {
+  display: flex;
+  flex-direction: column;
+  gap: 12%;
+  height: 100%;
+  width: 70%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.regisform {
+  margin-bottom: 3%;
+}
+
+input[type="text"] {
+  width: 60%;
+  border-radius: 12px;
+  background-color: #545b77;
+}
+
+.create {
+  padding: 0.7rem 1.2rem;
+  background-color: #212a3e;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-left: 3.3rem;
+}
+
+.create-button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 9%;
+}
+
+.create {
+  font-weight: 600;
+}
